@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <title>HTML5 Template</title>
+        <meta name="description" content="HTML5">
+        <meta name="author" content="Author">
+
+        <link rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+            integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+            crossorigin=""/>
+
+        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+            crossorigin=""></script>
+
+        <style>
+            #map { height: 400px; }
+        </style>
+
+
+    </head>
+
+    <body>
+        <button id="btnPrev">prev</button>
+        <button id="btnNext">next</button>
+        <button id="btnIoda">IODA</button>
+        <input type="text" id="currentDatesTitle" />
+        <input type="text" id="currentDates" style="width: 800px" />
+        <input type="text" id="currentTimestamps" style="width: 800px" />
+        <textarea id="outages" style="width: 800px"></textarea>
+        <div id="map"></div>
+        <script src="./script.js"></script>
+    </body>
+</html>
